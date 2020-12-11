@@ -2,7 +2,7 @@
 
 ## Para la aplicación:
   ### Desde Ubuntu:
-    ####### Requerimientos necesarios: Ionic Framework, Nodejs, Cordova 
+    ** Requerimientos necesarios: Ionic Framework, Nodejs, Cordova **
     1. sudo apt-get install python-software-properties
     2. curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
     3. sudo apt-get install nodejs  (Verificar que se tiene la versión 12.X).
