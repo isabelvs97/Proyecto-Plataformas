@@ -18,4 +18,4 @@
 ## Para la cámara: 
   Conectar la cámara a la alimentación cuando se desee empezar a tomar las fotos para registrarlas.
   
-    
+ 
