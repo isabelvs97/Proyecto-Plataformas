@@ -1,6 +1,6 @@
 //Code based on Arduino IDE Sketches examples
 //Works with ESP32-CAM module
-//Uploads photo to static IP and stores photo in SD card
+//Uploads photo to static IP and stores photo in SD card. Set cont for indicating how many times
 
 #include "WiFi.h"
 #include "ESPAsyncWebServer.h"
