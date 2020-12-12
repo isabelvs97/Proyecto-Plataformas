@@ -1,3 +1,5 @@
+//Code based on Arduino IDE Sketches examples
+
 #include "WiFi.h"
 #include "ESPAsyncWebServer.h"
 #include "esp_camera.h"
