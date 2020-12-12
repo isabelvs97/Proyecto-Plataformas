@@ -30,8 +30,8 @@
 
 #define EEPROM_SIZE 1
  
-const char* ssid = "Isabel";
-const char* password = "12345678";
+const char* ssid = "xxxx";
+const char* password = "xxxx";
 
 File file;
 int cont = 0;
@@ -116,7 +116,7 @@ void setup() {
 
 void loop(){
   
-  while(cont< 8){
+  while(cont < 8){
    
     server.on("/photo", HTTP_GET, [](AsyncWebServerRequest * request) {
     camera_fb_t * photo = NULL;
@@ -127,7 +127,7 @@ void loop(){
 
     delay(1000);
    
-  // initialize EEPROM with predefined size
+   //initialize EEPROM with predefined size
     camera_fb_t * photo = NULL;
     photo = esp_camera_fb_get();
     EEPROM.begin(EEPROM_SIZE);
